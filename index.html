@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie Foto</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Galerie Foto</h1>
+    </header>
+    
+    <div class="carousel-container">
+        <button class="prev" onclick="prevSlide()"><i class="fas fa-chevron-left"></i></button>
+        <div class="carousel-wrapper">
+            <div class="carousel" id="carousel">
+                <!-- Imaginile vor fi adăugate dinamic de script -->
+            </div>
+        </div>
+        <button class="next" onclick="nextSlide()"><i class="fas fa-chevron-right"></i></button>
+    </div>
+    
+    <div class="collage-container">
+        <h2>Colaj Foto</h2>
+        <div class="collage" id="collage">
+            <!-- Imaginile vor fi adăugate dinamic aici -->
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
