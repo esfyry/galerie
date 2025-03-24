@@ -1,0 +1,2 @@
+# galerie
+Lucru Individual
